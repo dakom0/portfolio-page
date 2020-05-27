@@ -529,7 +529,8 @@ input{
 }
 
 .submit{
-  width:20%
+  width:20%;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
