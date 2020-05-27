@@ -159,7 +159,7 @@ img {
   width: 100%;
   height: auto;
   background-color: red;
-  background-image: url("./img/matthias-mullie-_k3xBbG_yFY-unsplash.jpg");
+  background-image: url("../img/matthias-mullie-_k3xBbG_yFY-unsplash.jpg");
   padding-top: 70px;
   padding-bottom: -50px;
   background-size: cover;
@@ -202,7 +202,7 @@ img {
   margin: 0rem auto 6rem auto;
   padding: 5%;
   border-bottom: 0.2rem solid var(--main-white);
-  background: url(./img/universe-1566161_1920.jpg);
+  background: url(../img/universe-1566161_1920.jpg);
   background-size: cover;
 }
 
