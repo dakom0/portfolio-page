@@ -6,34 +6,48 @@
     <title>Document</title>
 
 </head>
-<body style="text-align: center; background-color: black;">
+<body style="text-align: center; background-color: black; color: beige;">
     <h1 style="color: beige; padding-bottom: 50px; border-bottom: solid medium;">PLC Implementation in IOT</h1>
-    <p style="color: beige;">Tribute Page
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua.</p>
+    <p style="color: beige; text-align: center;">The goal of this project is:<br>
+
+        Part 1: To design and build a PLC
+        system utilizing using radio
+        communication.<br>
+        
+        Part 2: Explore the vulnerability of the
+        radio communication through using a
+        Software Defined Radio.</p>
     <img style="margin: 60px;" height="600vw" src="../img/20191117_164019 copy.jpg"></img><br>
+    <p style="color: beige; margin: -50px auto 50px auto">Full Setup</p>
     <iframe style="margin: 60px;" width="803" height="400" src="https://www.youtube.com/embed/Bf04cd8c6kA" 
     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen></iframe>
-     <p style="color: beige;">Tribute Page
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua.</p>
+     <p style="color: beige; margin: -50px auto 50px auto">The I/O that we will use to display the traffic light system is the ladder
+        program and an array of LEDs to mimic the plan of a 4-way intersection.<br>
+        
+        The I/O of our motion detector will be the PIR to a digital module then to an
+        LED.<br>
+        
+        The system in comparison to real world traffic stops. Ethernet facilitates
+        communication between the devices</p>
         <img style="margin: 60px;" height="600vw" src="../img/Screen Shot 2020-05-31 at 5.00.36 PM.png"></img><br>
-    <p style="color: beige;">Tribute Page
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua.</p>
+    <p style="color: beige; margin: -50px auto 50px auto">Traffic Setup</p>
         <img style="margin: 60px;" height="600vw" src="../img/Screen Shot 2020-05-31 at 5.01.48 PM.png"></img><br>
-    <p style="color: beige;">Tribute Page
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua.</p>
+    <p style="color: beige; margin: -50px auto 50px auto">PLC Wiring Schematic</p>
         <img style="margin: 60px;" height="600vw" src="../img/Screen Shot 2020-05-31 at 5.04.43 PM.png"></img><br>
-    <p style="color: beige;">Tribute Page
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua.</p>
+    <p style="color: beige; margin: -50px auto 50px auto">Traffic Light Wiring Schematic</p>
         <img style="margin: 60px;" height="600vw" src="../img/cmd copy.jpg"></img><br>
+    <p style="color: beige; margin: -50px auto 50px auto">Testing Ethernet communication with the PLC setup for remote Programming</p>
         <img style="margin: 0px;" height="300vw" src="../img/Traffic_Ladder.JPG"></img><br>
         <img style="margin-top: 0px;" width="855vw" height="300vw" src="../img/Traffic_Ladder2.JPG"></img><br>
+        <p>The program uses timers that has one light on at a time.<br>
 
-    </video>
+        The system goes on continually because there is a reset
+        before the end of the program.<br>
+
+        For this setup, only inputs, outputs, timer and
+        binary data are used for programming the PLC.
+    </p>
+
 </body>
 </html>
