@@ -113,6 +113,11 @@ img {
   border-radius: 100px;
   border-top: thick solid rgba(0,0,0,.8);
 }
+
+.project-title {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
 .nav-list {
   display: flex;
   margin-right: 2rem;
@@ -140,7 +145,7 @@ img {
 
 .box{
   width: 80%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   padding: 40px;
   text-align: center;
   margin: auto;
@@ -151,6 +156,10 @@ img {
   border-radius: 10px;
 }
 
+.box>h1{
+  padding-left: 250px;
+}
+
 .about-section {
   display: flex;
   flex-direction: column;
@@ -159,7 +168,7 @@ img {
   width: 100%;
   height: auto;
   background-color: red;
-  background-image: url("../img/matthias-mullie-_k3xBbG_yFY-unsplash.jpg");
+  background-image: url("../img/technology\ bk9.jpg");
   padding-top: 70px;
   padding-bottom: -50px;
   background-size: cover;
@@ -173,7 +182,13 @@ img {
   float: right;
 }
 
-.bg-one {background-image: url(https://media.timeout.com/images/101602611/image.jpg);} 
+.bg-one {background-image: url(../img/beatles.png);} 
+.bg-two {background-image: url(../img/python.png);} 
+.bg-three {background-image: url(../img/crud-api.png);} 
+.bg-four {background-image: url(../img/hangamn.png);} 
+.bg-five {background-image: url(../img/20191117_164019\ copy.jpg);} 
+.bg-six {background-image: url(../img/line-follower.png);} 
+
 
 .projectword {
   display: none;
@@ -549,6 +564,10 @@ input{
     text-align: center;
     font-size: medium;
 
+  }
+
+  .box>h1{
+    padding: initial;
   }
 
   h1{
